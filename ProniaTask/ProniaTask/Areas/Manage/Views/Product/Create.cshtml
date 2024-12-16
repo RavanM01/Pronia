@@ -1,0 +1,60 @@
+﻿
+@model CreateProductVm
+<div class="container">
+<form method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label asp-for="Name">Name</label>
+    <input class="form-control" asp-for="Name" placeholder="Enter Name">
+    <span asp-validation-for="Name" style="color:red"></span>
+
+    <label asp-for="Description">Description</label>
+    <input class="form-control" asp-for="Description" placeholder="Enter Description">
+        <span asp-validation-for="Description" style="color:red"></span>
+
+    <label asp-for="Price">Price</label>
+    <input class="form-control" asp-for="Price" placeholder="Enter Price">
+    <span asp-validation-for="Price" style="color:red"></span>
+
+    <label asp-for="SKU">SKU</label>
+    <input class="form-control" asp-for="SKU" placeholder="Enter SKU">
+            <span asp-validation-for="SKU" style="color:red"></span>
+
+ <div class="row">
+     <div class="form-group">
+					<label asp-for="TagIds">Select Tags</label>
+					<select class="form-control" asp-for="TagIds" asp-items=@(new SelectList(ViewBag.Tags,"Id","Name"))>
+					</select>
+					<span asp-validation-for="TagIds" style="color:red"></span>
+     </div>
+ </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label asp-for="MainPhoto">MainPhoto</label>
+                    <input class="form-control" asp-for="MainPhoto" placeholder="Enter MainPhoto">
+                    <span asp-validation-for="MainPhoto" style="color:red"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Photos">Photos</label>
+                    <input class="form-control" asp-for="Photos" placeholder="Enter SKU">
+                    <span asp-validation-for="Photos" style="color:red"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="CategoryId">Select Category</label>
+                <select class="form-control" asp-for="CategoryId" asp-items=@(new SelectList(ViewBag.Categories,"Id","Name"))>
+                    <option>Select Category</option>                  
+                </select>
+                <span asp-validation-for="CategoryId" style="color:red"></span>
+            </div>
+            
+       
+
+
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
