@@ -2069,6 +2069,7 @@ wwwroot\Upload\product\16c39385-4a96-45fd-818f-eac2af8933c9WhatsApp Image 2024-1
 wwwroot\Upload\product\1e1157b8-aae7-430a-b83e-a4389a749a88WhatsApp Image 2024-11-21 at 06.01.32.jpeg
 wwwroot\Upload\product\25322b90-40c7-4b68-b1ea-431286d67632WhatsApp Image 2024-11-21 at 05.56.57.jpeg
 wwwroot\Upload\product\255f4cc2-4d91-4fba-b940-c0344ac0e1afWhatsApp Image 2024-11-21 at 05.58.39.jpeg
+wwwroot\Upload\product\28cdf133-cf65-4d1c-b1b6-45876dbd2bb2WhatsApp Image 2024-11-21 at 06.01.15.jpeg
 wwwroot\Upload\product\3157273e-2db9-4941-8a9d-a1d41df49f5dWhatsApp Image 2024-11-21 at 05.56.57.jpeg
 wwwroot\Upload\product\3cf90e84-d670-4589-979d-d26da76c18392yfbwr3w-400 (1).png
 wwwroot\Upload\product\4526b024-84ac-4305-9a9d-8aa11d981fe2logo.png
@@ -2080,6 +2081,7 @@ wwwroot\Upload\product\51fa79b2-9354-4ec4-9943-9b3115295ff0WhatsApp Image 2024-1
 wwwroot\Upload\product\5c400bd8-a69a-4a51-9ee1-7a99ebbdd0fcWhatsApp Image 2024-11-21 at 05.59.24.jpeg
 wwwroot\Upload\product\617a446e-35f0-4f5a-bca4-0df692ef9b88WhatsApp Image 2024-11-21 at 05.58.39.jpeg
 wwwroot\Upload\product\64c1c300-0e14-4883-b505-17f45420a237WhatsApp Image 2024-11-21 at 06.01.32.jpeg
+wwwroot\Upload\product\70b32b56-443e-46d8-a7f8-5eb3ba87b1e7WhatsApp Image 2024-11-21 at 05.58.39.jpeg
 wwwroot\Upload\product\8192d7ba-c13e-4927-936b-a90295981116WhatsApp Image 2024-11-21 at 06.01.32.jpeg
 wwwroot\Upload\product\89e7f1b6-3aed-45cb-9bef-18d2cea9c653WhatsApp Image 2024-11-21 at 06.01.15.jpeg
 wwwroot\Upload\product\a96f9b36-7508-48aa-8372-069421f19a47WhatsApp Image 2024-11-21 at 06.01.32.jpeg

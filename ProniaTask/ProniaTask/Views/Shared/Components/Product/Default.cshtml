@@ -49,7 +49,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a asp-action="AddBasket" asp-controller="Cart" asp-route-itemid="@item.Id"
+                                <a data-product-id="@item.Id" class="add-basket" 
                                    data-tippy="Add to cart"
                                    data-tippy-inertia="true"
                                    data-tippy-animation="shift-away"

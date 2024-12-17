@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ProniaTask.Areas.Manage.ViewModels.Product;
+using ProniaTask.Areas.Manage.ViewModels.Slider;
 using ProniaTask.DAL;
 using ProniaTask.Helpers.Extensions;
 using ProniaTask.Models;
@@ -61,6 +63,27 @@ namespace ProniaTask.Areas.Manage.Controllers
             _context.SaveChanges();
 
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var slider = await _context.sliders.FirstOrDefaultAsync(g => g.Id == id);
+       
+            UpdateSliderVm updateSliderVm = new UpdateSliderVm()
+            {
+                Title = slider.Title,
+                SubTitle= slider.SubTitle,
+                Description = slider.Description,
+           
+
+            };
+ 
+
+            return View(updateSliderVm);
         }
     }
 }

@@ -61,9 +61,10 @@ namespace ProniaTask.Controllers
             }
             return View(cart);
         }
-        public async Task<IActionResult> AddBasket(int itemId)
+        [HttpPost]
+        public async Task<IActionResult> AddBasket([FromBody]int id)
         {
-            var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == itemId);
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
             if (product == null) return NotFound();
 
             List<CookieItemVm> cookiesList;
@@ -72,7 +73,7 @@ namespace ProniaTask.Controllers
             if (basket != null)
             {
                 cookiesList = JsonConvert.DeserializeObject<List<CookieItemVm>>(basket);
-                var existsproduct = cookiesList.FirstOrDefault(x => x.Id == itemId);
+                var existsproduct = cookiesList.FirstOrDefault(x => x.Id == id);
                 if (existsproduct != null)
                 {
                     existsproduct.Count += 1;
@@ -80,7 +81,7 @@ namespace ProniaTask.Controllers
                 else
                 {
                     cookiesList.Add(new CookieItemVm() { 
-                    Id=itemId,
+                    Id=id,
                     Count=1
                    
                     });
@@ -89,18 +90,18 @@ namespace ProniaTask.Controllers
             else
             {
                 cookiesList = new List<CookieItemVm>();
+                cookiesList.Add(new CookieItemVm()
+                {
+                    Id = id,
+                    Count = 1
+                });
             }
-            CookieItemVm vm = new CookieItemVm()
-            {
-                Id=itemId,
-                Count=1
-            };
 
 
-            var json = JsonConvert.SerializeObject(vm); 
+
             Response.Cookies.Append("basket", JsonConvert.SerializeObject(cookiesList));
 
-            return RedirectToAction("Index","Home");
+            return Ok();
 
         }
         public IActionResult GetBasket()
@@ -108,6 +109,20 @@ namespace ProniaTask.Controllers
             var json = JsonConvert.DeserializeObject<CookieItemVm>(Request.Cookies["basket"]);
 
             return View();
+        }
+        public IActionResult Refresh()
+        {
+            return ViewComponent("Basket");
+        }
+        public IActionResult GetBasketCount()
+        {
+            var jsoncookie = Request.Cookies["basket"];
+            List<CookieItemVm> cookie = String.IsNullOrEmpty(jsoncookie) ?
+                new List<CookieItemVm>():JsonConvert.DeserializeObject<List<CookieItemVm>>(jsoncookie);
+
+            int count=cookie.Count==0 ? 0 : cookie.Sum(x=>x.Count);
+
+            return Ok(count);
         }
     }
 }

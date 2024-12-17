@@ -17,137 +17,141 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProniaTask
 build_property.RootNamespace = ProniaTask
-build_property.ProjectDir = C:\Users\I Novbe\Desktop\Pronia\ProniaTask\ProniaTask\
+build_property.ProjectDir = C:\Users\meher\OneDrive\Desktop\CodeAca\Pronia\ProniaTask\ProniaTask\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\I Novbe\Desktop\Pronia\ProniaTask\ProniaTask
+build_property.MSBuildProjectDirectory = C:\Users\meher\OneDrive\Desktop\CodeAca\Pronia\ProniaTask\ProniaTask
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Category/Create.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXENhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Category/Index.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Category/Update.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Category/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXENhdGVnb3J5XFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Panel/Index.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Panel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFBhbmVsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Product/Create.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFByb2R1Y3RcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Product/Index.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFByb2R1Y3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Product/Update.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFByb2R1Y3RcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Setting/Create.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Setting/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNldHRpbmdcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Setting/Index.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Setting/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNldHRpbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Setting/Update.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Setting/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNldHRpbmdcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Shared/_Layout.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Slider/Create.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Slider/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNsaWRlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Slider/Index.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/Slider/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNsaWRlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/_ViewImports.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/_ViewStart.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Areas/Manage/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Account/ConfirmEmail.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Account/ForgotPassword.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Account/Login.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Account/Register.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Account/ResetPassword.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Cart/Index.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Home/About.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Home/Contact.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Home/Detail.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Home/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Home/Index.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Shared/Components/Basket/Default.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Shared/Components/Basket/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmFza2V0XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Shared/Components/Product/Default.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Shared/Components/Product/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Shared/_Layout.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/Shared/_ProductPartialView.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Shared/_ProductPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0UGFydGlhbFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/_ViewImports.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I Novbe/Desktop/Pronia/ProniaTask/ProniaTask/Views/_ViewStart.cshtml]
+[C:/Users/meher/OneDrive/Desktop/CodeAca/Pronia/ProniaTask/ProniaTask/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

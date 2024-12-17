@@ -181,7 +181,7 @@
                       <li class="minicart-wrap me-3 me-lg-0">
                         <a href="#miniCart" class="minicart-btn toolbar-btn">
                           <i class="pe-7s-shopbag"></i>
-                          <span class="quantity">3</span>
+                          <span class="quantity" id="basket-quantity">0</span>
                         </a>
                       </li>
                       <li class="mobile-menu_wrap d-block d-lg-none">
@@ -920,7 +920,10 @@
             </div>
           </div>
         </div>
+        <div id="basket-content">
+
     @await Component.InvokeAsync("Basket")
+        </div>
         <div class="global-overlay"></div>
       </header>
       <!-- Main Header Area End Here -->
@@ -1343,5 +1346,59 @@
 
     <!--Main JS (Common Activation Codes)-->
     <script src="~/assets/js/main.js"></script>
+    <script>
+            document.querySelectorAll('.add-basket')
+            .forEach(b=>{
+                b.addEventListener('click',function (e){
+                    e.preventDefault();
+                    var productId= this.getAttribute('data-product-id')
+                    console.log(productId)
+                    AddBasket(productId)
+                })
+            })
+
+            async function AddBasket(productId){
+
+                try{
+                    await fetch('/Cart/AddBasket',{
+                        method:'POST',
+                        headers:{
+                            "Content-Type":"application/json"
+                        },
+                        body:JSON.stringify(productId)
+                    })
+                    await refreshBasket()
+                    await updateBasketCount()
+                }
+                catch{
+
+                }
+
+            }
+          
+            async function refreshBasket(){
+                var response = await fetch('/Cart/Refresh')
+                if(response.ok){
+                    var data= await response.text()
+                document.getElementById('basket-content').innerHTML=data
+                }
+                else{
+                    consol.log("bele kod olar eee")
+                }
+            }
+           
+            async function updateBasketCount(){
+                var response=await fetch('/Cart/GetBasketCount')
+                if(response.ok){
+                    var data =await response.json();
+                    document.getElementById('basket-quantity').innerText=data
+                }
+            }
+           
+            window.addEventListener('DOMContentLoaded',()=>{
+                updateBasketCount()
+           })
+
+    </script>
   </body>
 </html>
