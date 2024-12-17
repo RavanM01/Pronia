@@ -37764,6 +37764,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Upload\slider\cfe27814-f94a-4605-9a4b-bc763d6a1f95WhatsApp Image 2024-11-21 at 06.01.32.jpegcfe27814-f94a-4605-9a4b-bc763d6a1f95WhatsApp Image 2024-11-21 at 06.01.32.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Upload\slider\dad090df-2cee-483e-b51b-82862ffce165WhatsApp Image 2024-11-21 at 05.59.24.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProniaTask</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProniaTask</BasePath>
+      <RelativePath>Upload/slider/dad090df-2cee-483e-b51b-82862ffce165WhatsApp Image 2024-11-21 at 05.59.24.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>chmv31rtzu</Fingerprint>
+      <Integrity>cAUzxWSSqHiS1PaUxpZynrkftkzhzmsC0H4TNKjiOvc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Upload\slider\dad090df-2cee-483e-b51b-82862ffce165WhatsApp Image 2024-11-21 at 05.59.24.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Upload\slider\WhatsApp Image 2024-11-21 at 06.01.32.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProniaTask</SourceId>

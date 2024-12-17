@@ -11,13 +11,13 @@
                             @if (item.ProductImages.FirstOrDefault(x => x.Primary) != null)
                             {
                                 <img class="primary-img"
-                                     src="~/assets/images/website-images/@item.ProductImages.FirstOrDefault(x=>x.Primary==true).ImgUrl"
+                                     src="~/Upload/product/@item.ProductImages.FirstOrDefault(x=>x.Primary==true).ImgUrl"
                                      alt="Product Images" />
                             }
                             @if (item.ProductImages.FirstOrDefault(x => x.Primary == false) is not null)
                             {
                                 <img class="secondary-img"
-                                     src="~/assets/images/website-images/@item.ProductImages.FirstOrDefault(p=>p.Primary==false).ImgUrl"
+                                 src="~/Upload/product/@item.ProductImages.FirstOrDefault(p=>p.Primary==false).ImgUrl"
                                      alt="Product Images" />
                             }
                         </a>
