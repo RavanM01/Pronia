@@ -38,15 +38,11 @@ namespace ProniaTask.Controllers
                 .ThenInclude(x => x.Tag)
                 .FirstOrDefaultAsync(p=>p.Id==id);
 
-            List<Product> products = dbContext.Products.Include(p => p.ProductImages).ToList();
-           
-            HomeVM vm = new HomeVM()
-            {
-                Product = product,
-                Products = products,
-            };
+            // List<Product> products = dbContext.Products.Include(p => p.ProductImages).ToList();
+            ViewBag.ReProduct = await dbContext.Products.Include(x => x.ProductImages).Where(x => x.CategoryId == product.CategoryId).ToListAsync();
 
-            return View(vm);
+
+            return View(product);
         }
         public IActionResult About()
         {

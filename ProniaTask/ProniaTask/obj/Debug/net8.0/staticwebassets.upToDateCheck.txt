@@ -2071,6 +2071,7 @@ wwwroot\Upload\product\25322b90-40c7-4b68-b1ea-431286d67632WhatsApp Image 2024-1
 wwwroot\Upload\product\255f4cc2-4d91-4fba-b940-c0344ac0e1afWhatsApp Image 2024-11-21 at 05.58.39.jpeg
 wwwroot\Upload\product\3157273e-2db9-4941-8a9d-a1d41df49f5dWhatsApp Image 2024-11-21 at 05.56.57.jpeg
 wwwroot\Upload\product\3cf90e84-d670-4589-979d-d26da76c18392yfbwr3w-400 (1).png
+wwwroot\Upload\product\4526b024-84ac-4305-9a9d-8aa11d981fe2logo.png
 wwwroot\Upload\product\46da9bcc-8a2e-4b12-969b-7465556f570fWhatsApp Image 2024-04-30 at 5.23.09 PM.jpeg
 wwwroot\Upload\product\4bb5f62f-4072-433d-96f7-3ca3291f3633WhatsApp Image 2024-11-21 at 05.59.24.jpeg
 wwwroot\Upload\product\4d010b40-f2ed-4d51-98de-b24c52fbd63aWhatsApp Image 2024-11-21 at 05.59.24.jpeg
@@ -2084,6 +2085,7 @@ wwwroot\Upload\product\89e7f1b6-3aed-45cb-9bef-18d2cea9c653WhatsApp Image 2024-1
 wwwroot\Upload\product\a96f9b36-7508-48aa-8372-069421f19a47WhatsApp Image 2024-11-21 at 06.01.32.jpeg
 wwwroot\Upload\product\d27f50f4-0acb-4087-86dc-486d1fc3b3a2WhatsApp Image 2024-11-21 at 05.56.57.jpeg
 wwwroot\Upload\product\deb352cf-5b08-4fb1-937c-985edfc4bc8aWhatsApp Image 2024-11-21 at 05.56.57.jpeg
+wwwroot\Upload\product\edb8a834-b1e8-43a1-8529-d2ec198020b8logo--footer.png
 wwwroot\Upload\product\f23b202b-1994-49bd-8fb6-91d31bc36ec7WhatsApp Image 2024-11-21 at 06.01.32.jpeg
 wwwroot\Upload\product\f51b4d21-9c32-4e77-b3e7-a9dd22dab086WhatsApp Image 2024-05-18 at 21.47.20.jpeg
 wwwroot\Upload\product\f5d6426b-83d3-4cad-b2cf-87c7aeeb5604image001.jpg
